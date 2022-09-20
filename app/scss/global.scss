@@ -1,0 +1,47 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  font-size: 16px;
+  line-height:26px;
+  // color: $default;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto ;
+  padding: 0 15px;
+}
+
+
+a{
+    font-size: 16px;
+    line-height: 26px;
+    // color: $default;
+    @extend %rubik-400;
+   
+}
+
+.title {
+  text-align: center;
+  @extend %DM-Sans-700;
+  font-size: 48;
+  line-height: 65px;
+  
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.text{
+  text-align: center;
+  max-width: 570px;
+  margin: 0 auto 55px;
+}
